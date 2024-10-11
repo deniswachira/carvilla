@@ -1,0 +1,54 @@
+body{
+    background-image: url(../images/welcome-hero/welcome-banner.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    position: absolute;
+    top: 15%;
+    left: 38%;
+    font-size: 60px;
+}	h2{
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    font-size: 60px;
+}
+.log{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    border:1px solid black;
+    padding:10px;
+}
+label{
+    width: 100px;
+    display: inline-block;
+    text-align: left;
+    font-weight: bold;
+}
+input[type="submit"]{
+    margin-left: 120px;
+    padding:5px;
+    border: 1px solid #ccc;
+}
+input[type="text"],select{
+    width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+}
+input[type="password"],select{
+    padding:8px;
+    width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+}
